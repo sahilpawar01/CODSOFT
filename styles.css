@@ -1,0 +1,38 @@
+body {
+    background-color: #f8f8f8;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .container {
+    max-width: 400px;
+  }
+  
+  .glassmorphism-calculator {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+  }
+  
+  .calculator-button {
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .calculator-button:hover {
+    background-color: rgba(239, 65, 11, 0.8);
+    transform: scale(1.05);
+  }
+  
+  .result-screen {
+    animation: fadeIn 0.5s ease;
+    background-color: #e5e7eb;
+    color: #333;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
